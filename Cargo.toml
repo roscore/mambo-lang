@@ -1,0 +1,19 @@
+[package]
+name = "mambo-lang"
+version = "0.1.0"
+edition = "2021"
+authors = ["Mambo Lang contributors"]
+description = "An independent, rhythm-and-bar-based stack language"
+license = "MIT"
+repository = "https://github.com/roscore/mambo-lang"
+readme = "README.md"
+keywords = ["esolang", "stack", "rhythm", "korean"]
+categories = ["command-line-utilities", "development-tools"]
+
+[lib]
+name = "mambo_lang"
+path = "src/lib.rs"
+
+[[bin]]
+name = "mambo"
+path = "src/main.rs"
